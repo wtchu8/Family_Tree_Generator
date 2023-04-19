@@ -1,9 +1,9 @@
-""" persons relationship with others """
+""" A member of a family """
 
 from person import Person
 
 class Member(Person):
-    """ a person's relationship to others """
+    """ a member of a family """
     def __init__(self,fname,lname):
         super.__init__(fname,lname)
         self.father=None
