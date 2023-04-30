@@ -1,0 +1,4 @@
+# files to not ignore, should ignore by default for protecting PII
+*
+!.gitignore
+!template.csv
